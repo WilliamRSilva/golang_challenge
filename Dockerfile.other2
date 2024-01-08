@@ -1,0 +1,5 @@
+FROM golang:alpine3.19
+
+CMD ["Hello Word"]
+
+

@@ -1,0 +1,6 @@
+FROM golang:1.8
+WORKDIR /golang_challenge
+COPY hello-world.go .
+RUN go build -o hello-world .
+
+CMD ./hello-world
