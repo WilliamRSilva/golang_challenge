@@ -13,3 +13,4 @@ CMD ./fullcyclerocksapp
 FROM scratch 
 WORKDIR /golang_challenge
 COPY --from=step1 /golang_challenge/fullcyclerocksapp /golang_challenge_final/
+ENTRYPOINT [ "/golang_challenge_final/fullcyclerocksapp" ]
